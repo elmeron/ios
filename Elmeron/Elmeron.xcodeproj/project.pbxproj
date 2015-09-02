@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B91942481B949B2700A64227 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91942471B949B2700A64227 /* TileView.swift */; };
+		B919424A1B94D36C00A64227 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91942491B94D36C00A64227 /* Position.swift */; };
+		B919424B1B9579D200A64227 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91942491B94D36C00A64227 /* Position.swift */; };
 		B94BD1A11B90A2F0000D6058 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD1A01B90A2F0000D6058 /* AppDelegate.swift */; };
 		B94BD1A31B90A2F0000D6058 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = B94BD1A21B90A2F0000D6058 /* GameScene.sks */; };
 		B94BD1A51B90A2F0000D6058 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD1A41B90A2F0000D6058 /* GameScene.swift */; };
@@ -15,6 +18,8 @@
 		B94BD1AC1B90A2F0000D6058 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B94BD1AB1B90A2F0000D6058 /* Images.xcassets */; };
 		B94BD1AF1B90A2F0000D6058 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B94BD1AD1B90A2F0000D6058 /* LaunchScreen.xib */; };
 		B94BD1BB1B90A2F0000D6058 /* ElmeronTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B94BD1BA1B90A2F0000D6058 /* ElmeronTests.swift */; };
+		B95DEB3F1B9473100098494E /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95DEB3E1B9473100098494E /* Server.swift */; };
+		B95DEB401B9473100098494E /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = B95DEB3E1B9473100098494E /* Server.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +33,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B91942471B949B2700A64227 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
+		B91942491B94D36C00A64227 /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		B94BD19B1B90A2F0000D6058 /* Elmeron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elmeron.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94BD19F1B90A2F0000D6058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B94BD1A01B90A2F0000D6058 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,6 +47,7 @@
 		B94BD1B41B90A2F0000D6058 /* ElmeronTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElmeronTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B94BD1B91B90A2F0000D6058 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B94BD1BA1B90A2F0000D6058 /* ElmeronTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ElmeronTests.swift; sourceTree = "<group>"; };
+		B95DEB3E1B9473100098494E /* Server.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Server.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B91942461B949ACD00A64227 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B91942471B949B2700A64227 /* TileView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		B94BD1921B90A2F0000D6058 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +97,8 @@
 		B94BD19D1B90A2F0000D6058 /* Elmeron */ = {
 			isa = PBXGroup;
 			children = (
+				B91942461B949ACD00A64227 /* Views */,
+				B95DEB3D1B9472D60098494E /* ServerCommunication */,
 				B94BD1A01B90A2F0000D6058 /* AppDelegate.swift */,
 				B94BD1A21B90A2F0000D6058 /* GameScene.sks */,
 				B94BD1A41B90A2F0000D6058 /* GameScene.swift */,
@@ -116,6 +134,15 @@
 				B94BD1B91B90A2F0000D6058 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B95DEB3D1B9472D60098494E /* ServerCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				B95DEB3E1B9473100098494E /* Server.swift */,
+				B91942491B94D36C00A64227 /* Position.swift */,
+			);
+			name = ServerCommunication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -222,6 +249,9 @@
 			files = (
 				B94BD1A51B90A2F0000D6058 /* GameScene.swift in Sources */,
 				B94BD1A71B90A2F0000D6058 /* GameViewController.swift in Sources */,
+				B919424A1B94D36C00A64227 /* Position.swift in Sources */,
+				B95DEB3F1B9473100098494E /* Server.swift in Sources */,
+				B91942481B949B2700A64227 /* TileView.swift in Sources */,
 				B94BD1A11B90A2F0000D6058 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -230,7 +260,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B95DEB401B9473100098494E /* Server.swift in Sources */,
 				B94BD1BB1B90A2F0000D6058 /* ElmeronTests.swift in Sources */,
+				B919424B1B9579D200A64227 /* Position.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,6 +454,7 @@
 				B94BD1C01B90A2F0000D6058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B94BD1C11B90A2F0000D6058 /* Build configuration list for PBXNativeTarget "ElmeronTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +463,7 @@
 				B94BD1C31B90A2F0000D6058 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

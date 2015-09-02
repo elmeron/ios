@@ -6,17 +6,34 @@
 //  Copyright (c) 2015 Elmeron. All rights reserved.
 //
 
+import Foundation
 import SpriteKit
 
 class GameScene: SKScene {
     override func didMoveToView(view: SKView) {
-        /* Setup your scene here */
-        let myLabel = SKLabelNode(fontNamed:"Chalkduster")
-        myLabel.text = "Hello, World!";
-        myLabel.fontSize = 65;
-        myLabel.position = CGPoint(x:CGRectGetMidX(self.frame), y:CGRectGetMidY(self.frame));
+        backgroundColor = UIColor.whiteColor()
         
-        self.addChild(myLabel)
+        var server = Server()
+        var map = server.GetMap()
+        
+        for tile in map.tiles
+        {
+            layOutTile(tile)
+        }
+    }
+    
+    func layOutTile(tile: Tile) {
+        let size = CGFloat(11)
+        let point = hexToPixel(size, position: tile.position)
+        
+        let tileView = TileView(tile: tile, frame: CGRect(x:point.x, y:point.y, width:20, height:20))
+        self.view?.addSubview(tileView)
+    }
+    
+    func hexToPixel(size: CGFloat, position: Position) -> CGPoint {
+        let x = size * CGFloat(3)/CGFloat(2) * CGFloat(position.x)
+        let y = size * sqrt(3) * (CGFloat(position.z) + CGFloat(position.x)/CGFloat(2))
+        return CGPoint(x: x, y:y)
     }
     
     override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
@@ -25,6 +42,9 @@ class GameScene: SKScene {
         for touch in (touches as! Set<UITouch>) {
             let location = touch.locationInNode(self)
             
+            
+            
+            /*
             let sprite = SKSpriteNode(imageNamed:"Spaceship")
             
             sprite.xScale = 0.5
@@ -36,10 +56,21 @@ class GameScene: SKScene {
             sprite.runAction(SKAction.repeatActionForever(action))
             
             self.addChild(sprite)
+            */
         }
     }
    
     override func update(currentTime: CFTimeInterval) {
         /* Called before each frame is rendered */
     }
+    
+    /*
+    override func touchesMoved(touches: Set<NSObject>, withEvent event: UIEvent) {
+        for touch in (touches as! Set<NSSet>) {
+            let location = touch.locationInNode(self)
+            let touchedNode = nodeAtPoint(location)
+            touchedNode.position = location
+        }
+    }
+    */
 }

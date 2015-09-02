@@ -26,6 +26,15 @@ class ElmeronTests: XCTestCase {
         XCTAssert(true, "Pass")
     }
     
+    func testServerCommunication() {
+        // Ett enkelt test som skickar hälsningsfrasen "ELM" och förväntar sig "ERON" tillbaka som svar
+        
+        var server = Server()
+        
+        XCTAssert(server.SendTest("ELM") == "ERON", "Inga problem")
+        XCTAssert(server.SendTest("APA") == "", "Inte heller något problem")
+    }
+    
     func testPerformanceExample() {
         // This is an example of a performance test case.
         self.measureBlock() {
