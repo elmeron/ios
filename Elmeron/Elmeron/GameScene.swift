@@ -10,11 +10,14 @@ import Foundation
 import SpriteKit
 
 class GameScene: SKScene {
+    
+    let server = Server()
+    
     override func didMoveToView(view: SKView) {
         backgroundColor = UIColor.whiteColor()
         
-        var server = Server()
-        var map = server.GetMap()
+        let server = Server()
+        let map = server.GetMap()
         
         for tile in map.tiles
         {
@@ -36,10 +39,10 @@ class GameScene: SKScene {
         return CGPoint(x: x, y:y)
     }
     
-    override func touchesBegan(touches: Set<NSObject>, withEvent event: UIEvent) {
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
         /* Called when a touch begins */
         
-        for touch in (touches as! Set<UITouch>) {
+        for touch in (touches ) {
             let location = touch.locationInNode(self)
             
             

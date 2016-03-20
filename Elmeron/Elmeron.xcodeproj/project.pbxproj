@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1475E78F1C9D71970058DC0F /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E78E1C9D71970058DC0F /* Tile.swift */; };
+		1475E7951C9D76CF0058DC0F /* ResourceTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7941C9D76CF0058DC0F /* ResourceTile.swift */; };
+		1475E7971C9D77060058DC0F /* MountainTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7961C9D77060058DC0F /* MountainTile.swift */; };
+		1475E7991C9D7AB40058DC0F /* ForestTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7981C9D7AB40058DC0F /* ForestTile.swift */; };
+		1475E79B1C9D7B340058DC0F /* FieldTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E79A1C9D7B340058DC0F /* FieldTile.swift */; };
+		1475E79D1C9D7BCC0058DC0F /* MudField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E79C1C9D7BCC0058DC0F /* MudField.swift */; };
+		1475E79F1C9E7BAD0058DC0F /* GlacierTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E79E1C9E7BAD0058DC0F /* GlacierTile.swift */; };
+		1475E7A11C9E7CD80058DC0F /* DesertTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7A01C9E7CD80058DC0F /* DesertTile.swift */; };
+		1475E7A31C9E7D4A0058DC0F /* ShoreTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7A21C9E7D4A0058DC0F /* ShoreTile.swift */; };
+		1475E7A51C9E7D980058DC0F /* LakeTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7A41C9E7D980058DC0F /* LakeTile.swift */; };
+		1475E7A71C9EA1600058DC0F /* VoidTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7A61C9EA1600058DC0F /* VoidTile.swift */; };
+		1475E7AB1C9EA1FF0058DC0F /* ElmeronTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7AA1C9EA1FF0058DC0F /* ElmeronTile.swift */; };
+		1475E7AE1C9EA4C60058DC0F /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7AD1C9EA4C60058DC0F /* Map.swift */; };
+		1475E7B01C9EA57C0058DC0F /* IslandMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7AF1C9EA57C0058DC0F /* IslandMap.swift */; };
+		1475E7B21C9EA73D0058DC0F /* PlanetMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7B11C9EA73D0058DC0F /* PlanetMap.swift */; };
+		1475E7B41C9EA7A50058DC0F /* SpaceMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7B31C9EA7A50058DC0F /* SpaceMap.swift */; };
+		1475E7B61C9EAAF40058DC0F /* Hexagon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7B51C9EAAF40058DC0F /* Hexagon.swift */; };
+		1475E7B81C9EAE4B0058DC0F /* HexagonGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7B71C9EAE4B0058DC0F /* HexagonGrid.swift */; };
+		1475E7BA1C9EB8090058DC0F /* Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7B91C9EB8090058DC0F /* Hex.swift */; };
+		1475E7BC1C9EB8710058DC0F /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475E7BB1C9EB8710058DC0F /* Cube.swift */; };
 		B91942481B949B2700A64227 /* TileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91942471B949B2700A64227 /* TileView.swift */; };
 		B919424A1B94D36C00A64227 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91942491B94D36C00A64227 /* Position.swift */; };
 		B919424B1B9579D200A64227 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91942491B94D36C00A64227 /* Position.swift */; };
@@ -33,6 +53,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1475E78E1C9D71970058DC0F /* Tile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		1475E7941C9D76CF0058DC0F /* ResourceTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceTile.swift; sourceTree = "<group>"; };
+		1475E7961C9D77060058DC0F /* MountainTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MountainTile.swift; sourceTree = "<group>"; };
+		1475E7981C9D7AB40058DC0F /* ForestTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForestTile.swift; sourceTree = "<group>"; };
+		1475E79A1C9D7B340058DC0F /* FieldTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldTile.swift; sourceTree = "<group>"; };
+		1475E79C1C9D7BCC0058DC0F /* MudField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MudField.swift; sourceTree = "<group>"; };
+		1475E79E1C9E7BAD0058DC0F /* GlacierTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlacierTile.swift; sourceTree = "<group>"; };
+		1475E7A01C9E7CD80058DC0F /* DesertTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesertTile.swift; sourceTree = "<group>"; };
+		1475E7A21C9E7D4A0058DC0F /* ShoreTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShoreTile.swift; sourceTree = "<group>"; };
+		1475E7A41C9E7D980058DC0F /* LakeTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LakeTile.swift; sourceTree = "<group>"; };
+		1475E7A61C9EA1600058DC0F /* VoidTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VoidTile.swift; sourceTree = "<group>"; };
+		1475E7AA1C9EA1FF0058DC0F /* ElmeronTile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElmeronTile.swift; sourceTree = "<group>"; };
+		1475E7AD1C9EA4C60058DC0F /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		1475E7AF1C9EA57C0058DC0F /* IslandMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IslandMap.swift; sourceTree = "<group>"; };
+		1475E7B11C9EA73D0058DC0F /* PlanetMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlanetMap.swift; sourceTree = "<group>"; };
+		1475E7B31C9EA7A50058DC0F /* SpaceMap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpaceMap.swift; sourceTree = "<group>"; };
+		1475E7B51C9EAAF40058DC0F /* Hexagon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexagon.swift; sourceTree = "<group>"; };
+		1475E7B71C9EAE4B0058DC0F /* HexagonGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonGrid.swift; sourceTree = "<group>"; };
+		1475E7B91C9EB8090058DC0F /* Hex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hex.swift; sourceTree = "<group>"; };
+		1475E7BB1C9EB8710058DC0F /* Cube.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
 		B91942471B949B2700A64227 /* TileView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TileView.swift; sourceTree = "<group>"; };
 		B91942491B94D36C00A64227 /* Position.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Position.swift; sourceTree = "<group>"; };
 		B94BD19B1B90A2F0000D6058 /* Elmeron.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Elmeron.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +108,36 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1475E78D1C9D71650058DC0F /* Tiles */ = {
+			isa = PBXGroup;
+			children = (
+				1475E78E1C9D71970058DC0F /* Tile.swift */,
+				1475E7941C9D76CF0058DC0F /* ResourceTile.swift */,
+				1475E7961C9D77060058DC0F /* MountainTile.swift */,
+				1475E7981C9D7AB40058DC0F /* ForestTile.swift */,
+				1475E79A1C9D7B340058DC0F /* FieldTile.swift */,
+				1475E79C1C9D7BCC0058DC0F /* MudField.swift */,
+				1475E79E1C9E7BAD0058DC0F /* GlacierTile.swift */,
+				1475E7A01C9E7CD80058DC0F /* DesertTile.swift */,
+				1475E7A21C9E7D4A0058DC0F /* ShoreTile.swift */,
+				1475E7A41C9E7D980058DC0F /* LakeTile.swift */,
+				1475E7A61C9EA1600058DC0F /* VoidTile.swift */,
+				1475E7AA1C9EA1FF0058DC0F /* ElmeronTile.swift */,
+			);
+			name = Tiles;
+			sourceTree = "<group>";
+		};
+		1475E7AC1C9EA4BA0058DC0F /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				1475E7AD1C9EA4C60058DC0F /* Map.swift */,
+				1475E7AF1C9EA57C0058DC0F /* IslandMap.swift */,
+				1475E7B11C9EA73D0058DC0F /* PlanetMap.swift */,
+				1475E7B31C9EA7A50058DC0F /* SpaceMap.swift */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
 		B91942461B949ACD00A64227 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +167,8 @@
 		B94BD19D1B90A2F0000D6058 /* Elmeron */ = {
 			isa = PBXGroup;
 			children = (
+				1475E7AC1C9EA4BA0058DC0F /* Maps */,
+				1475E78D1C9D71650058DC0F /* Tiles */,
 				B91942461B949ACD00A64227 /* Views */,
 				B95DEB3D1B9472D60098494E /* ServerCommunication */,
 				B94BD1A01B90A2F0000D6058 /* AppDelegate.swift */,
@@ -107,6 +179,10 @@
 				B94BD1AB1B90A2F0000D6058 /* Images.xcassets */,
 				B94BD1AD1B90A2F0000D6058 /* LaunchScreen.xib */,
 				B94BD19E1B90A2F0000D6058 /* Supporting Files */,
+				1475E7B51C9EAAF40058DC0F /* Hexagon.swift */,
+				1475E7B71C9EAE4B0058DC0F /* HexagonGrid.swift */,
+				1475E7B91C9EB8090058DC0F /* Hex.swift */,
+				1475E7BB1C9EB8710058DC0F /* Cube.swift */,
 			);
 			path = Elmeron;
 			sourceTree = "<group>";
@@ -189,7 +265,9 @@
 		B94BD1931B90A2F0000D6058 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0630;
+				LastSwiftMigration = 0720;
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = Elmeron;
 				TargetAttributes = {
 					B94BD19A1B90A2F0000D6058 = {
@@ -247,12 +325,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1475E7A11C9E7CD80058DC0F /* DesertTile.swift in Sources */,
+				1475E79B1C9D7B340058DC0F /* FieldTile.swift in Sources */,
+				1475E79D1C9D7BCC0058DC0F /* MudField.swift in Sources */,
+				1475E7B41C9EA7A50058DC0F /* SpaceMap.swift in Sources */,
+				1475E7991C9D7AB40058DC0F /* ForestTile.swift in Sources */,
 				B94BD1A51B90A2F0000D6058 /* GameScene.swift in Sources */,
+				1475E7B01C9EA57C0058DC0F /* IslandMap.swift in Sources */,
+				1475E7B21C9EA73D0058DC0F /* PlanetMap.swift in Sources */,
+				1475E7B61C9EAAF40058DC0F /* Hexagon.swift in Sources */,
 				B94BD1A71B90A2F0000D6058 /* GameViewController.swift in Sources */,
 				B919424A1B94D36C00A64227 /* Position.swift in Sources */,
+				1475E7BA1C9EB8090058DC0F /* Hex.swift in Sources */,
+				1475E7A51C9E7D980058DC0F /* LakeTile.swift in Sources */,
+				1475E78F1C9D71970058DC0F /* Tile.swift in Sources */,
 				B95DEB3F1B9473100098494E /* Server.swift in Sources */,
+				1475E7AE1C9EA4C60058DC0F /* Map.swift in Sources */,
 				B91942481B949B2700A64227 /* TileView.swift in Sources */,
+				1475E7A71C9EA1600058DC0F /* VoidTile.swift in Sources */,
+				1475E7AB1C9EA1FF0058DC0F /* ElmeronTile.swift in Sources */,
 				B94BD1A11B90A2F0000D6058 /* AppDelegate.swift in Sources */,
+				1475E7BC1C9EB8710058DC0F /* Cube.swift in Sources */,
+				1475E7971C9D77060058DC0F /* MountainTile.swift in Sources */,
+				1475E7B81C9EAE4B0058DC0F /* HexagonGrid.swift in Sources */,
+				1475E7951C9D76CF0058DC0F /* ResourceTile.swift in Sources */,
+				1475E7A31C9E7D4A0058DC0F /* ShoreTile.swift in Sources */,
+				1475E79F1C9E7BAD0058DC0F /* GlacierTile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,6 +415,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -386,6 +485,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Elmeron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elmeron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -397,6 +497,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Elmeron/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elmeron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -415,6 +516,7 @@
 				);
 				INFOPLIST_FILE = ElmeronTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elmeron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elmeron.app/Elmeron";
 			};
@@ -430,6 +532,7 @@
 				);
 				INFOPLIST_FILE = ElmeronTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Elmeron.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elmeron.app/Elmeron";
 			};

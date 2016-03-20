@@ -21,7 +21,7 @@ class Server {
     }
     
     func GetMap() -> Map {
-        var map = Map(title: "The Lonely Island", type: KindOfMap.Island)
+        let map = Map(title: "The Lonely Island", type: KindOfMap.Island)
         
         map.tiles.append(CreateTile(KindOfTile.Field, position: Position(x: 0, z: 0)))
         map.tiles.append(CreateTile(KindOfTile.Forest, position: Position(x: 1, z: 0)))

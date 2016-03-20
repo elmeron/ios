@@ -29,7 +29,7 @@ class ElmeronTests: XCTestCase {
     func testServerCommunication() {
         // Ett enkelt test som skickar hälsningsfrasen "ELM" och förväntar sig "ERON" tillbaka som svar
         
-        var server = Server()
+        let server = Server()
         
         XCTAssert(server.SendTest("ELM") == "ERON", "Inga problem")
         XCTAssert(server.SendTest("APA") == "", "Inte heller något problem")
